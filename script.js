@@ -3,6 +3,7 @@
 function increment(){
 	let counter = document.getElementById("counter");
 	counter.textContent = parseInt(counter.innerHTML)+1;
+	alert(counter.textContent);
 }
 
 const btn = document.getElementById("incrementBtn");
